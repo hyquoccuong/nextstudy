@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c61871fa-925e-42d1-9276-0e4d7ed43a24" name="hocdoc">
+        <fileTransfer rootFolder="/opt/nextjs" accessType="SFTP" host="192.168.49.14" port="22" sshConfigId="bf89439e-70de-439d-9e69-fc036f541bcf" sshConfig="root@192.168.49.14:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
